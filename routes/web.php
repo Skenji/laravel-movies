@@ -28,6 +28,6 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('/favoritas', [MoviesController::class, 'show'])->name("favoritas");
 
     Route::get('/dashboard', function () {
-        return redirect('/favoritas');
+        return redirect('/');
     });
 });
