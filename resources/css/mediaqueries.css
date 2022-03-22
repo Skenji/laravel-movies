@@ -1,0 +1,17 @@
+/* Header */
+
+@media screen and (max-width: 600px) {
+    #header-flex-container {
+        flex-direction: column;
+    }
+    #header-flex-container .flex:nth-child(2) {
+        width: 100%;
+        flex-direction: column;
+    }
+    #header-flex-container #buttons-header {
+        padding: 1em 0;
+    }
+    #header-flex-container #buttons-header a {
+        display: inline-block;
+    }
+}
